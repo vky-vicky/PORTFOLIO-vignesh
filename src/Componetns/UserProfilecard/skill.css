@@ -1,0 +1,129 @@
+.containerr{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(16, 16, 51);
+    position: relative;
+    padding-top: 10px;
+  }
+  .titlee{
+    color: rgb(218, 217, 225);
+
+    margin-top: 20px;
+     font-size: 45px;
+     font-family: "Lora", serif;
+  }
+  .skill{
+    display: inline;
+    position: relative;
+  }
+  
+  .img1{
+    display: flex;
+  
+    margin-left: 10px;
+    box-shadow: rgb(56, 59, 61) 0px 20px 30px -10px;
+    margin: 50px;
+    margin-left: 100px;
+    font-size: x-large;
+    height: 130px;
+    width: 150px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .img1:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(197, 10, 16) 0px 20px 30px -10px;
+  }
+  .img2{
+  
+    margin-left: 10px;
+    box-shadow: rgb(56, 59, 61) 0px 20px 30px -10px;
+    margin: 50px;
+    margin-left: 100px;
+    font-size: x-large;
+    height: 130px;
+    width: 150px;
+    padding: 20px;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+    transition: transform 0.5s;
+    margin-left: 100px;
+  }
+  .img2:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(197, 10, 16) 0px 20px 30px -10px;
+  }
+  .img3{
+  
+    margin-left: 10px;
+    box-shadow: rgb(56, 59, 61) 0px 20px 30px -10px;
+    margin: 50px;
+    margin-left: 100px;
+    font-size: x-large;
+    height: 130px;
+    width: 150px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    transition: transform 0.5s;
+    margin-left: 100px;
+  }
+  .img3:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(197, 10, 16) 0px 20px 30px -10px;
+  }
+  .img4{
+    margin-left: 10px;
+    box-shadow: rgb(56, 59, 61) 0px 20px 30px -10px;
+    margin: 50px;
+    margin-left: 100px;
+    font-size: x-large;
+    height: 130px;
+    width: 150px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    position: absolute;
+    bottom: 230px;
+    left: 300px;
+  }
+  .img4:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(197, 10, 16) 0px 20px 30px -10px;
+  }
+  .sit{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 500px;
+    width: 600px;
+  }
+  
+  @media screen and (max-width: 830px) {
+    .contentt {
+      flex-direction: column;
+      align-items: center;
+      gap: 34px;
+    }
+  
+    .skills {
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .sit{
+      display: none;
+    }
+    .titlee{
+     margin: 50px;
+     font-size: 40px;
+    }
+  
+
+  }
