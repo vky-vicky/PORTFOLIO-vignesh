@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vky-vicky.github.io/PORTFOLIO-vignesh/",
+  "homepage": "https://vky-vicky.github.io/portfolio-Vignesh-",
   "name": "vky",
   "version": "0.1.0",
   "private": true,
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "rimraf": "^6.0.1"
   }
 }
