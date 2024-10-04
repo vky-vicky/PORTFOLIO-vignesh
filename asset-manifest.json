@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-vignesh.git/static/css/main.620746b1.css",
-    "main.js": "/portfolio-vignesh.git/static/js/main.13577aee.js",
-    "static/media/vky.png": "/portfolio-vignesh.git/static/media/vky.52baec94d924aca44208.png",
-    "static/media/comm.png": "/portfolio-vignesh.git/static/media/comm.ca21c223a185cbf23bba.png",
-    "static/media/com.png": "/portfolio-vignesh.git/static/media/com.b3334efbdd226f7cc39b.png",
-    "index.html": "/portfolio-vignesh.git/index.html",
-    "main.620746b1.css.map": "/portfolio-vignesh.git/static/css/main.620746b1.css.map",
-    "main.13577aee.js.map": "/portfolio-vignesh.git/static/js/main.13577aee.js.map"
+    "main.css": "/portfolio-vignesh/static/css/main.620746b1.css",
+    "main.js": "/portfolio-vignesh/static/js/main.1169fd3c.js",
+    "static/media/vky.png": "/portfolio-vignesh/static/media/vky.52baec94d924aca44208.png",
+    "static/media/comm.png": "/portfolio-vignesh/static/media/comm.ca21c223a185cbf23bba.png",
+    "static/media/com.png": "/portfolio-vignesh/static/media/com.b3334efbdd226f7cc39b.png",
+    "index.html": "/portfolio-vignesh/index.html",
+    "main.620746b1.css.map": "/portfolio-vignesh/static/css/main.620746b1.css.map",
+    "main.1169fd3c.js.map": "/portfolio-vignesh/static/js/main.1169fd3c.js.map"
   },
   "entrypoints": [
     "static/css/main.620746b1.css",
-    "static/js/main.13577aee.js"
+    "static/js/main.1169fd3c.js"
   ]
 }
