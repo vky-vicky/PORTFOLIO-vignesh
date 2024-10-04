@@ -1,147 +1,141 @@
-.aboutjs{
-    background-color: rgb(26, 26, 63);
-    height: 100vh;
-    width: 100%;
-  }
+
+ .aboutjs {
+  background-color: rgb(26, 26, 63);
+  height: 100vh;
+  width: 100%;
   
-  
-  
-  .from{
-    position: relative;
-    background-color: rgba(11, 9, 9, 0.6);
-    border-radius: 15px;
-    padding: 73px;
-    margin-top: 10px;
-    z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  
-  .title {
-    color:rgb(249, 246, 246);
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
-  }
-  main{
-    background-color: rgb(20, 20, 47);
-    height: 100vh;
-    width: 100%;
-    padding-top: 10px;
-  }
-  
+}
+
+.from {
+  position: relative;
+  background-color: rgba(11, 9, 9, 0.6);
+  border-radius: 15px;
+  padding: 50px;
+  margin: 10px auto;
+  z-index: 1;
+  max-width: 1300px; /* Maximum width for larger screens */
+ 
+}
+
+.title {
+  color: rgb(249, 246, 246);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #4d4747;
+}
+
+main {
+  background-color: rgb(20, 20, 47);
+  height:auto; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.aboutimage {
+  width: 30%;
+  max-width: 300px; 
+}
+
+.aboutitems {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 65%; /* Adjust width for text */
+}
+
+.aboutitem {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  box-shadow: rgb(255, 251, 251) 0px 5px 15px;
+}
+
+.aboutitem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItemText {
+  padding: 15px;
+}
+
+.shadow {
+  padding: 15px; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+ h4 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Kalam", cursive;
+  color: aliceblue;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Raleway", system-ui;
+  color: azure;
+}
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 900px) {
   .content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-  }
-  .one{
-    position: absolute;
-    top: 145px;
-    margin-left: 100px;
-  }
-  
-  .two{
-    position: absolute;
-    top: 310px;
-    margin-left: 100px;
-  }
-  .three{
-    position: absolute;
-    top: 480px;
-    margin-left: 100px;
-  }
-  
-  .aboutimage {
-    width: 30%;
-  }
-  
-  .aboutitems {
-    color:black;
-    display: flex;
     flex-direction: column;
-    gap: 30px;
+    align-items: center; 
   }
-  
-  .aboutitem {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 20px;
-    list-style: none;
-    padding: 25px;
-    background-image: linear-gradient(
-      90deg,
-      rgba(165, 215, 232, 0.42) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: 0.4s;
-    box-shadow: rgb(255, 251, 251) 0px 5px 15px;
-    position: relative;
-  }
-  
-  .aboutitem:hover {
-    background-size: 100% 100%;
-  }
-  
-   h4 {
-    font-size: 25px;
-    font-weight: 600;
-    font-family: "Kalam", cursive;
-    color: aliceblue;
-  
-  }
-  
-   p {
-    font-size: 20px;
-    font-family: "Raleway", system-ui;
-    color: azure
-  }
-  
-  @media screen and (max-width: 830px) {
-    .container1 {
-      background-color: transparent;
-      padding-left: 0;
-      padding-right: 0;
-    }
-  
-    .content {
-      flex-direction: column;
-    }
-  
-    .aboutimage {
-      display: none;
-    }
-  
-    .aboutitems {
-      margin-top: 29px;
-    }
-  
-    .aboutitem {
-      padding-left: 0;
-      padding-right: 0;
-    }
-    h4{
-      font-size: 25px;
-      margin-top: 7px;
 
-    }
-    .aboutitem{
-      padding: 12px
-    }
-    p{
-      font-size: 16px;
-    }
-    .three{
-      top: 450px;
-    }
-    
-
-
-
+  .aboutimage {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px; 
   }
-  
+
+  .aboutitems {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 23px;
+  }
+
+  p {
+    font-size: 15px; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .from {
+    padding: 40px; 
+  }
+
+  h4 {
+    font-size: 20px; 
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+ 

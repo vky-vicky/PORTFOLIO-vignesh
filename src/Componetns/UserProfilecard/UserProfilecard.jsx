@@ -31,7 +31,7 @@ export const UserProfilecard = () => {
         </ul>
       </div>
       <div className="bg">
-        <img src={profile_icon} height={500} width={500} alt="Profile" />
+        <img src={profile_icon}  className="bg22"height={500} width={500} alt="Profile" />
         
       </div>
    

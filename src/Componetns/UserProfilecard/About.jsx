@@ -21,7 +21,7 @@ export const About = () => {
             <img src={setimage} alt="token" />
           </li>
           <div className="aboutItemText">
-            <h4 className="one">Front end Developer</h4>
+            <h4 className="one">Frontend Developer</h4>
             <p>
               I'am a front end developer building responsive and optimise sites.
             </p>

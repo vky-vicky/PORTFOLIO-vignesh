@@ -1,129 +1,115 @@
-.containerr{
+.containerr {
     height: 100vh;
     width: 100%;
     background-color: rgb(16, 16, 51);
     position: relative;
-    padding-top: 10px;
-  }
-  .titlee{
-    color: rgb(218, 217, 225);
+    padding-top: 20px;
 
+}
+
+.titlee {
+    color: rgb(251, 244, 244);
+    margin-left: 70px;
     margin-top: 20px;
-     font-size: 45px;
-     font-family: "Lora", serif;
-  }
-  .skill{
-    display: inline;
-    position: relative;
-  }
-  
-  .img1{
-    display: flex;
-  
-    margin-left: 10px;
+    font-size: 45px;
+    font-family: "Lora", serif;
+    text-shadow: 2px 2px 4px #ff0000;
+}
+
+.skill {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.img1, .img2, .img3 {
+    margin: 10px;
     box-shadow: rgb(56, 59, 61) 0px 20px 30px -10px;
-    margin: 50px;
-    margin-left: 100px;
     font-size: x-large;
-    height: 130px;
-    width: 150px;
+    height: 150px;
+    width: 160px;
     padding: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
     transition: transform 0.5s;
-    margin-left: 100px;
-    margin-top: 50px;
-  }
-  .img1:hover {
+}
+.bg1, .bg2, .bg3{
+  margin: 10px;
+  box-shadow: rgb(56, 59, 61) 0px 20px 30px -10px;
+  font-size: x-large;
+  height: 150px;
+  width: 160px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  transition: transform 0.5s;
+
+}
+
+.img1:hover, .img2:hover, .img3:hover, .bg1:hover, .bg2:hover, .bg3:hover {
     transform: scale(1.1);
     box-shadow: rgb(197, 10, 16) 0px 20px 30px -10px;
-  }
-  .img2{
-  
-    margin-left: 10px;
-    box-shadow: rgb(56, 59, 61) 0px 20px 30px -10px;
-    margin: 50px;
-    margin-left: 100px;
-    font-size: x-large;
-    height: 130px;
-    width: 150px;
-    padding: 20px;
-    background-color: rgb(255, 245, 245);
-    border-radius: 12px;
-    transition: transform 0.5s;
-    margin-left: 100px;
-  }
-  .img2:hover {
-    transform: scale(1.1);
-    box-shadow: rgb(197, 10, 16) 0px 20px 30px -10px;
-  }
-  .img3{
-  
-    margin-left: 10px;
-    box-shadow: rgb(56, 59, 61) 0px 20px 30px -10px;
-    margin: 50px;
-    margin-left: 100px;
-    font-size: x-large;
-    height: 130px;
-    width: 150px;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 12px;
-    transition: transform 0.5s;
-    margin-left: 100px;
-  }
-  .img3:hover {
-    transform: scale(1.1);
-    box-shadow: rgb(197, 10, 16) 0px 20px 30px -10px;
-  }
-  .img4{
-    margin-left: 10px;
-    box-shadow: rgb(56, 59, 61) 0px 20px 30px -10px;
-    margin: 50px;
-    margin-left: 100px;
-    font-size: x-large;
-    height: 130px;
-    width: 150px;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 12px;
-    transition: transform 0.5s;
-    margin-left: 100px;
-    position: absolute;
-    bottom: 230px;
-    left: 300px;
-  }
-  .img4:hover {
-    transform: scale(1.1);
-    box-shadow: rgb(197, 10, 16) 0px 20px 30px -10px;
-  }
-  .sit{
+}
+
+.sit {
     position: absolute;
     right: 10px;
-    top: 20px;
+    top: 250px;
     height: 500px;
     width: 600px;
-  }
-  
-  @media screen and (max-width: 830px) {
-    .contentt {
-      flex-direction: column;
-      align-items: center;
-      gap: 34px;
-    }
-  
-    .skills {
-      width: 100%;
-      flex-direction: row;
-      justify-content: center;
-    }
-    .sit{
-      display: none;
-    }
-    .titlee{
-     margin: 50px;
-     font-size: 40px;
-    }
-  
+    margin-right: 400px;
 
-  }
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    .contentt {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px; 
+    }
+
+    .skills {
+        width: 100%;
+        flex-direction: row; 
+
+        
+    }
+ 
+    .sit {
+        display: none;
+    }
+
+    .titlee {
+        margin: 50px;
+        font-size: 40px;
+    }
+
+
+    .img1, .img2, .img3 {
+        height: 100px;
+        width: 100px;
+        margin: 10px; 
+        flex: 0 1 calc(33.33% - 20px);
+        box-sizing: border-box; 
+    }
+
+
+    .bg1 {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        flex: 0 1 calc(33.33% - 20px);
+        box-sizing: border-box; 
+    }
+
+
+    .bg2, .bg3 {
+        height: 100px;
+        width: 100px;
+        margin: 10px; 
+        flex: 0 1 calc(33.33% - 20px);
+        box-sizing: border-box; 
+    }
+}
